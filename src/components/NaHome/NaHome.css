@@ -1,0 +1,88 @@
+#na-home{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top:0;
+    display: inline-block;
+}
+
+.na-menu {
+    width: 30vw;
+    float: left;
+    height: 100vh;
+}
+.na-main {
+    width: 80vw;
+    position: fixed;
+    left:20vw;
+}
+
+#na-info{
+    top: 120px;
+    left: 40px;
+    height:550px;
+    width: 300px;
+    background-color: rgba(255,255,255,0.7);
+    overflow: hidden;
+    position:fixed;
+    box-shadow: 0 0 3px  #aaaaaa;
+    padding: 10px;
+    z-index: 9;
+    text-align: -webkit-left;
+}
+
+
+#na-links{
+    padding-left: 90px;
+    padding-right: 40px;
+    height:40%;
+    width: 100%;
+}
+
+.na-link{
+    display: block;
+    padding: 15px;
+}
+
+.na-link :hover{
+    text-decoration: none;
+}
+
+.slide-show{
+}
+
+.slide-show .slick-dots{
+    position: fixed;
+    bottom:100px;
+    width: 80%;
+}
+
+.slide-show .slick-next{
+    right:25px;
+}
+
+.slide-show .slick-prev{
+    left:25px;
+    z-index: 99;
+}
+.slide-show .slick-track{
+    height:100vh
+}
+
+.slide-show .slick-list{
+    height:100vh
+}
+
+.slide-show .slick-slide{
+    padding: 3px;
+    height: 100%;
+}
+.inline-image{
+    height: 45px;
+}
+
+.axon-image-1{
+    height: 100%;
+}

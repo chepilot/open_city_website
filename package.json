@@ -1,0 +1,36 @@
+{
+  "homepage": "https://chepilot.github.io/open_city_website",
+  "name": "opencity_website",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "bootstrap": "^4.0.0-beta",
+    "d3": "^4.10.0",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^1.0.0",
+    "jquery": "^3.2.1",
+    "normalize.css": "^7.0.0",
+    "popper.js": "^1.12.3",
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.2",
+    "react-burger-menu": "^2.1.4",
+    "react-dom": "^15.6.1",
+    "react-responsive-carousel": "^3.1.25",
+    "react-router": "^4.1.2",
+    "react-router-dom": "^4.1.2",
+    "react-scripts": "1.0.11",
+    "react-slick": "^0.15.0",
+    "react-transition-group": "^1.2.0",
+    "slick-carousel": "^1.7.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "html-loader": "^0.5.1"
+  }
+}
